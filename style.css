@@ -3,3 +3,89 @@
     padding: 0;
     font-family: sans-serif;
 }
+nav{
+    background-color: #1c2833;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    color: white;
+    margin-left: 30px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 7px 13px;
+    transition: 0.5s;
+}
+nav ul li a:hover, nav ul li a.active{
+    background-color: #566573;
+    border-radius: 3px;
+}
+#click{
+    display: none;
+}
+.button-bar{
+    font-size: 22px;
+    color: white;
+    display: none;
+}
+
+/* media queries work is here  */
+
+@media only screen and (max-width:758px){
+    .button-bar{
+        display: block;
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+    #click:checked ~ .button-bar i::before{
+        content: "\f00d";
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #17202a;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+        transition: all 0.5s ease;
+    }
+    nav ul li{
+        margin: 50px 0;
+    }
+    nav ul li a:hover{
+        background: none;
+        color: red;
+    }
+    nav ul li a.active{
+        background: none;
+    }
+}
+
+/* header section work start is here  */
+
+header{
+    background: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 88vh;
+}
