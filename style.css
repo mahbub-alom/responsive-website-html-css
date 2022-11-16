@@ -241,6 +241,63 @@ header{
     background-color: wheat;
 }
 
+/* contact section work start  */
+
+.contact-container{
+    background-image: linear-gradient(#3958a25e, #4089c7), url("images/contact.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+}
+form{
+    background-color: #2e357a;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px 60px;
+    border-radius: 10px;
+    border: 6px solid #4497d3;
+    text-align: center;
+    color: white;
+}
+form h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+form p{
+    margin-bottom: 20px;
+}
+.contact-input::placeholder{
+    color: #4497d3;
+    font-size: 20px;
+    font-weight: bold
+}
+.contact-input{
+    display: block;
+    width: 100%;
+    border: none;
+    background: none;
+    height: 40px;
+    margin: 50px 0;
+    outline: none;
+    color: white;
+    border-bottom: 3px solid #4497d3;
+}
+.submit-button{
+    display: block;
+    padding: 5px 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    background: none;
+    color: white;
+    outline-style: ridge;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit-button:hover{
+    background-color: #16213e;
+}
 
 
 
@@ -340,6 +397,15 @@ header{
         margin-top: 20px;
     }
     /* advance section stop  */
+
+    /* contact sention start  */
+    form{
+        background-color: #2e357a;
+        max-width: 90%;
+        padding: 20px 30px;
+        margin:0 15px;
+    }
+    /* contact section work stop  */
 }
 @media only screen and (min-width:689px) and (max-width:992px){
     /* service area start  */
@@ -381,4 +447,12 @@ header{
         margin-right: 70px;
     }
     /* advance section stop */
+
+    /* contact section start  */
+    form{
+        background-color: #2e357a;
+        max-width: 90%;
+        padding: 40px 50px;
+        margin: 0 15px;
+    }
 }                        
