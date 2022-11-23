@@ -343,7 +343,80 @@ form p{
 
 /* match section work stop here  */
 
+/* care section work start  */
 
+.care-container{
+    padding: 100px 0;
+}
+.care-section{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.care-single-box p{
+    margin: 15px 0;
+}
+.care-single-box ul li{
+    list-style-position: inside;
+    margin: 5px;
+}
+.care-section-imag{
+    width: 100%;
+}
+.care-section-imag img{
+    width: 100%;
+}
+
+/* care section work stop */
+
+/* footer section work start  */
+.footer-container{
+    background-color: #154360;
+    padding: 100px 0;
+}
+.footer-box{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    gap: 80px;
+}
+.single-footer{
+    width: 100%;
+}
+.single-footer span{
+    color: yellow;
+}
+.single-footer h3{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.single-footer p{
+    line-height: 1.7;
+}
+.second-footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer-icon a{
+    text-decoration: none;
+    color: white;
+    background-color: #0a273863;
+    padding: 10px;
+    margin: 0 5px;
+}
+hr{
+    margin:80px 0 20px 0 ;
+}
+.footer-finish{
+    color: white;
+    text-align: center;
+}
+
+/* footer section work stop   */
 
 
 
@@ -465,6 +538,36 @@ form p{
     }
 
     /* match section work stop  */
+
+    /* care section start  */
+
+    .care-section{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .care-single-box{
+        margin-bottom: 40px;
+    }
+
+    /* care section stop  */
+
+    /* footer section start  */
+    .footer-box{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .single-footer h3{
+        margin-bottom: 15px;
+    }
+    .single-footer{
+        margin: 20px 0;
+    }
+    .footer-finish{
+        margin-top: 20px;
+    }
+    /* footer section stop  */
 }
 @media only screen and (min-width:689px) and (max-width:992px){
     /* service area start  */
@@ -526,4 +629,24 @@ form p{
     }
 
     /* match section stop  */
+
+    /* care section start  */
+    .care-section{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .care-single-box{
+        margin-bottom: 40px;
+    }
+
+    /* footer section start  */
+    .footer-box{
+        display: flex;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .footer-finish{
+        margin-top: 20px;
+    }
 }
