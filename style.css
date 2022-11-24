@@ -159,7 +159,10 @@ header{
     margin-bottom: 20px;
 }
 .left-box ul{
-    margin: 10px 0 10px 15px;
+    margin: 10px 0 10px 0px;
+}
+.left-box ul li{
+    list-style-position: inside;
 }
 .left-box a{
     text-decoration: none;
@@ -458,6 +461,11 @@ hr{
     }
     nav ul li a.active{
         background: none;
+    }
+    header{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
